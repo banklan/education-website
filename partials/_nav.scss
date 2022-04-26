@@ -1,0 +1,39 @@
+nav{
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+
+    .nav__container{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button{
+        display: none;
+    }
+
+    .nav__menu{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        a{
+            font-size: 0.9rem;
+            
+            &:hover{
+                color: $secondary-variant;
+                transition: $transition;
+            }
+        }
+    }
+}
+
+// change window color while scrolling
+.window-scroll{
+    background: $primary;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+}

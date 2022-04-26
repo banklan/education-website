@@ -1,0 +1,30 @@
+.about {
+  margin-top: 3rem;
+}
+
+.about .about__achievements {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 5rem;
+}
+
+.about .about__achievements .about__achievements-right h2 {
+  font-weight: 500;
+}
+
+.about .about__achievements .about__achievements-right > p {
+  margin: 1.6rem 0 2.5rem;
+}
+
+.about .about__achievements .about__achievements-right .achievements__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about .about__achievements .about__achievements-right .achievements__cards .achievement__card {
+  background: secondary;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  text-align: center;
+}
